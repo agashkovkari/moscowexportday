@@ -1,0 +1,127 @@
+@import url('../fonts/CeraPro/stylesheet.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-white font-primary text-black;
+  }
+
+  body,
+  .text-base {
+    @apply text-base-sm md:text-base-md lg:text-base-lg xl:text-base-xl;
+  }
+
+  .h0 {
+    @apply text-h0-sm md:text-h0-md lg:text-h0-lg xl:text-h0-xl font-bold;
+  }
+
+  h1,
+  .h1 {
+    @apply text-h1-sm md:text-h1-md lg:text-h1-lg xl:text-h1-xl font-bold;
+  }
+
+  h2,
+  .h2 {
+    @apply mb-7.5 lg:mb-10 text-h2-sm md:text-h2-md lg:text-h2-lg xl:text-h2-xl font-bold;
+  }
+
+  h3,
+  .h3 {
+    @apply mb-5 lg:mb-7.5 text-h3-sm md:text-h3-md lg:text-h3-lg xl:text-h3-xl font-bold;
+  }
+
+  a {
+    @apply no-underline hover:underline underline-offset-4 decoration-1;
+  }
+
+  input,
+  textarea {
+    @apply !bg-transparent !border !rounded-[16px] !border-primary placeholder:text-primary !text-base-sm md:!text-base-md lg:!text-base-lg xl:!text-base-xl !py-3.5 md:!py-5 lg:!py-6.5 !px-5 lg:!px-7.5;
+
+    &[type='submit'] {
+      @apply border-0 bg-primary text-white uppercase cursor-pointer;
+    }
+
+    &.error {
+      @apply shadow-[0px_0px_20px_0px_rgba(255,44,126,0.5)];
+    }
+  }
+
+  ul.marker {
+    @apply space-y-2.5 children:relative children:pl-7.5 children:before:content-['•'] children:before:absolute children:before:left-0;
+  }
+
+  ul.checkbox {
+    @apply space-y-5 children:relative children:pl-10 children:before:content-[''] children:before:absolute children:before:top-0.5 lg:children:before:top-1.5 children:before:left-0 children:before:w-[18px] children:before:h-[18px] children:before:border children:before:border-white children:before:rounded-sm;
+  }
+
+  .text-small {
+    @apply text-small-sm md:text-small-md lg:text-small-lg xl:text-small-xl;
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply relative px-7.5 lg:px-12.5 overflow-x-hidden;
+  }
+
+  .container {
+    @apply relative max-w-7xl mx-auto py-5 md:py-7.5 lg:py-10 px-7.5 lg:px-12.5 rounded-[40px] overflow-hidden;
+  }
+
+  .btn {
+    @apply inline-block text-center rounded-[20px] border border-primary text-primary !py-2 lg:!py-3 !px-7.5 md:!px-15 !no-underline;
+
+    &--title {
+      @apply h3 tracking-normal uppercase hover:bg-transparent hover:text-black;
+    }
+  }
+
+  .primary-bg {
+    @apply bg-[linear-gradient(150deg,_#FF2C7E_0%,_#83A1FE_75%)] text-white;
+  }
+
+  .secondary-bg {
+    @apply bg-[linear-gradient(270deg,_#FF2C7E_0%,_#83A1FE_100%)] text-white;
+  }
+
+  .run-text {
+    @apply my-5 lg:my-10 mx-auto w-full bg-[url(../img/run-text-new.svg)] bg-[length:auto_100%] bg-repeat-x;
+    animation: 4000s run-text infinite linear;
+    animation-delay: 2s;
+
+    @media screen and (min-width: 600px) {
+      animation: 3000s run-text infinite linear;
+    }
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    @apply mb-7.5 !-mt-[44px];
+  }
+
+  .swiper-button-disabled {
+    opacity: 0.1 !important;
+  }
+}
+
+@layer utilities {
+}
+
+:root {
+  --swiper-navigation-color: #ff2c7e;
+  --swiper-navigation-size: 24px;
+}
+
+@keyframes run-text {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -100000px 0;
+  }
+}
