@@ -1287,8 +1287,8 @@ $APPLICATION->SetPageProperty("description", "moscowexportday");
                     <div class="flex gap-5 items-start">
                       <img class="shrink-0 w-[60px] h-[60px] rounded-full" src="./img/nophoto.svg">
                       <div class="text-small">
-                        <div class="font-bold">Бэси Нде</div>
-                        <div>Генеральный директор Micromega Ltd</div>
+                        <div class="font-bold">Роланд Эду</div>
+                        <div>директор REM PROPER SOLUTION Ltd</div>
                       </div>
                     </div>
                   </div>
