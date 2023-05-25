@@ -1486,8 +1486,23 @@ $APPLICATION->SetPageProperty("description", "moscowexportday");
                     <div class="flex gap-5 items-start">
                       <img class="shrink-0 w-[60px] h-[60px] rounded-full" src="./img/nophoto.svg">
                       <div class="text-small">
-                        <div class="font-bold">Джеми Тумимомор</div>
-                        <div>Председатель Торгово-Промышленной Палаты города Манадо Республики Индонезия</div>
+                        <div class="font-bold">Юли Сри Виланти</div>
+                        <div>Ассистент Заместителя министра по развитию садоводческого агропромышленного комплекса,
+                          Координационное министерство по экономическим вопросам Республики Индонезия</div>
+                      </div>
+                    </div>
+                    <div class="flex gap-5 items-start">
+                      <img class="shrink-0 w-[60px] h-[60px] rounded-full" src="./img/nophoto.svg">
+                      <div class="text-small">
+                        <div class="font-bold">Айлеен Хутомо</div>
+                        <div>Генеральный директор PT Alimindus Chemicals</div>
+                      </div>
+                    </div>
+                    <div class="flex gap-5 items-start">
+                      <img class="shrink-0 w-[60px] h-[60px] rounded-full" src="./img/nophoto.svg">
+                      <div class="text-small">
+                        <div class="font-bold">Алексей Платонов</div>
+                        <div>Менеджер по экспорту ТК Мираторг</div>
                       </div>
                     </div>
                   </div>
@@ -1496,8 +1511,8 @@ $APPLICATION->SetPageProperty("description", "moscowexportday");
                     <div class="flex gap-5 items-start">
                       <img class="shrink-0 w-[60px] h-[60px] rounded-full" src="./img/nophoto.svg">
                       <div class="text-small">
-                        <div class="font-bold">Данияр Акказиев</div>
-                        <div>Исполнительный директор Делового совета Россия-АСЕАН</div>
+                        <div class="font-bold">Елена Преображенская</div>
+                        <div>Генеральный директор агентства маркетинговых и межкультурных коммуникаций AMARCOM</div>
                       </div>
                     </div>
                   </div>
