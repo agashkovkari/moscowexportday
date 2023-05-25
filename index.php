@@ -982,13 +982,13 @@ $APPLICATION->SetPageProperty("description", "moscowexportday");
                           юрист-китаист, сооснователь юрфирмы</div>
                       </div>
                     </div>
-                    <div class="flex gap-5 items-start">
+                    <!--<div class="flex gap-5 items-start">
                       <img class="shrink-0 w-[60px] h-[60px] rounded-full" src="./img/speakers-minarchenko.png">
                       <div class="text-small">
                         <div class="font-bold">Ксения Минарченко</div>
                         <div>Управляющая бизнес-группой ВТБ</div>
                       </div>
-                    </div>
+                    </div>-->
                     <div class="flex gap-5 items-start">
                       <img class="shrink-0 w-[60px] h-[60px] rounded-full" src="./img/speakers-smituh.png">
                       <div class="text-small">
@@ -997,7 +997,7 @@ $APPLICATION->SetPageProperty("description", "moscowexportday");
                       </div>
                     </div>
                   </div>
-                  <div class="mt-5 text-small font-bold">Модератор:</div>
+                  <!--<div class="mt-5 text-small font-bold">Модератор:</div>
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
                     <div class="flex gap-5 items-start">
                       <img class="shrink-0 w-[60px] h-[60px] rounded-full" src="./img/speakers-dabbah.png">
@@ -1007,7 +1007,7 @@ $APPLICATION->SetPageProperty("description", "moscowexportday");
                           технологических компаний, с глобальном опытом в регионе Азия.</div>
                       </div>
                     </div>
-                  </div>
+                  </div>-->
                 </div>
               </div>
             </div>
