@@ -690,14 +690,14 @@ $APPLICATION->SetPageProperty("description", "moscowexportday");
                         <div>Директор по развитию ООО «Системы распределенного реестра»</div>
                       </div>
                     </div>
-                    <div class="flex gap-5 items-start">
+                    <!--<div class="flex gap-5 items-start">
                       <img class="shrink-0 w-[60px] h-[60px] rounded-full" src="./img/speakers-kuzmicheva.png">
                       <div class="text-small">
                         <div class="font-bold">Кузьмичева Екатерина</div>
                         <div>Заместитель директора Департамента по работе с клиентами Международного Банка
                           экономического сотрудничества</div>
                       </div>
-                    </div>
+                    </div>-->
                     <div class="flex gap-5 items-start">
                       <img class="shrink-0 w-[60px] h-[60px] rounded-full" src="./img/speakers-kozinec.png">
                       <div class="text-small">
